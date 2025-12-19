@@ -2,7 +2,7 @@ from google import genai
 from google.genai import types
 from PIL import Image
 
-client = genai.Client(api_key="AIzaSyB5YXurHlI8hfCPSgQt3J8oxzXRmptZE0Y")
+client = genai.Client(api_key="API_KEY")
 
 prompt =  "Tell me the object inside the empty room"
 
